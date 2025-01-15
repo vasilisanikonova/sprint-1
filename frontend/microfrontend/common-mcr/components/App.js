@@ -1,19 +1,19 @@
 import React from "react";
 import { Route, useHistory, Switch } from "react-router-dom";
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
-import PopupWithForm from "./PopupWithForm";
-import ImagePopup from "./ImagePopup";
-import api from "../utils/api";
+import Header from "./Header.js";
+import Main from "./Main.js";
+import Footer from "./Footer.js";
+import PopupWithForm from "../../profile-mcr/src/components/PopupWithForm.js";
+import ImagePopup from "../../gallery-mcr/components/ImagePopup.js";
+import api from "../../../src/utils/api.js";
 import { CurrentUserContext } from "../contexts/CurrentUserContext";
-import EditProfilePopup from "./EditProfilePopup";
-import EditAvatarPopup from "./EditAvatarPopup";
-import AddPlacePopup from "./AddPlacePopup";
-import Register from "./Register";
-import Login from "./Login";
-import InfoTooltip from "./InfoTooltip";
-import ProtectedRoute from "./ProtectedRoute";
+import EditProfilePopup from "./EditProfilePopup.js";
+import EditAvatarPopup from "./EditAvatarPopup.js";
+import AddPlacePopup from "./AddPlacePopup.js";
+import Register from "./Register.js";
+import Login from "./Login.js";
+import InfoTooltip from "./InfoTooltip.js";
+import ProtectedRoute from "./ProtectedRoute.js";
 import * as auth from "../utils/auth.js";
 
 function App() {
